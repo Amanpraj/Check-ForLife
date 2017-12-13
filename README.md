@@ -1,0 +1,2 @@
+# Check-ForLife
+We receive labtech notifications that a machine has been offline for more than 30 days. It was requested that we check DNS records, ping and attempt to RDP to the mahcines before removing them from labtech. Thats what this little hack of a powershell program does. You must have windows server 2012 ir windows 8.1 or higher for this to work as it makes calls to .net and uses resolve-dnsname
